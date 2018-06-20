@@ -1,6 +1,6 @@
-﻿namespace UBApiClient
+﻿namespace UBApiClient.Forms
 {
-    partial class Form1
+    partial class LazadaOP
     {
         /// <summary>
         /// Required designer variable.
@@ -33,20 +33,21 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(641, 350);
+            this.simpleButton1.Location = new System.Drawing.Point(713, 405);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Text = "simpleButton1";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
-            // Form1
+            // LazadaOP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.simpleButton1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "LazadaOP";
+            this.Text = "LazadaOP";
             this.ResumeLayout(false);
 
         }
@@ -56,4 +57,3 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }
-
